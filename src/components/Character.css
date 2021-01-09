@@ -18,7 +18,17 @@
 .characters-container .character-card img {
     border-radius: 50%;
 }
+.favorite-container{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+}
 
-.header{
+.favorite-container img{
+    width: 50%;
+    border-radius: 50%;
+}
 
+.favorite-container img:hover{
+    border: 5px solid rgb(122, 122, 204);
 }
